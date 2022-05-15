@@ -366,7 +366,7 @@ footer {
     z-index:999;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (min-width: 0px){
     body {
         text-align: center;
     }
@@ -375,6 +375,20 @@ footer {
     }
     .contenedor2 {
         width: 100%;
+    }
+    .mensaje {
+        width: 80%;
+    }
+    .enviar {
+        width: 80%;
+    }
+    .enviar:hover {
+        width: 80%;
+    }
+    .textarea {
+        height: 30px;
+        width: 80%;
+        margin: 0px 10px 10px;
     }
     .fotoproducto {
         width: 300px;
@@ -411,6 +425,20 @@ footer {
 @media only screen and (max-width: 480px) and (min-width: 321px) {
     body {
         text-align: center;
+    }
+    .mensaje {
+        width: 80%;
+    }
+    .enviar {
+        width: 80%;
+    }
+    .enviar:hover {
+        width: 80%;
+    }
+    .textarea {
+        height: 30px;
+        width: 80%;
+        margin: 0px 10px 10px;
     }
     .nav {
         top: 613px;
@@ -461,6 +489,20 @@ footer {
     .nav {
         top: 646px;
     }
+    .mensaje {
+        width: 400px;
+    }
+    .enviar {
+        width: 400px;
+    }
+    .enviar:hover {
+        width: 400px;
+    }
+    .textarea {
+        height: 30px;
+        width: 400px;
+        margin: 0px 10px 10px;
+    }
     .ruta {
         padding-left: 20px;
     }
@@ -500,6 +542,20 @@ footer {
     .ruta {
         padding-left: 20px;
     }
+    .mensaje {
+        width: 400px;
+    }
+    .enviar {
+        width: 400px;
+    }
+    .enviar:hover {
+        width: 400px;
+    }
+    .textarea {
+        height: 30px;
+        width: 400px;
+        margin: 0px 10px 10px;
+    }
     .contenedor2 {
         width: 100%;
     }
@@ -526,6 +582,20 @@ footer {
 @media only screen and (min-width: 1025)  {
     main { 
         top: 730px;
+    }
+    .mensaje {
+        width: 400px;
+    }
+    .enviar {
+        width: 400px;
+    }
+    .enviar:hover {
+        width: 400px;
+    }
+    .textarea {
+        height: 30px;
+        width: 400px;
+        margin: 0px 10px 10px;
     }
     .nav {
         top: 648px;
