@@ -5,25 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/glasses.png">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Optica flex - Home</title>
     
 </head>
 <body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     <header>
 		<div>
             <div>
                 <img src="img/top-index.jpg" alt="top-index" class="top">
             </div>
-            <div class="logotop">
+            <div class="logotop" data-aos="fade-down">
                 <img src="img/logo-blanco.png" alt="Optica flex"></td>
             </div>
-            <div class="nav">
+            <div class="nav" data-aos="fade-right">
                 <ul class="navega">
-                    <li><a href="index.html" >Home</a></li>
+                    <li class="animate__fadeInUp"><a href="index.html">Home</a></li>
                     <li><a href="./pages/nosotros.html">Nosotros</a></li>
                     <li><a href="./pages/tienda.html">Tienda</a></li>
                     <li><a href="./pages/marcas.html">Marcas</a></li>
@@ -31,7 +33,7 @@
                 </ul>                   
             </div>
             <div class="nav2">
-                <ul class="iconos">
+                <ul class="iconos" data-aos="fade-down">
                     <li><img src="./img/1-615cda901c28b.png" alt="" width="50px">Pagá con credito y débito </li>
                     <li><img src="./img/02-6112e14f82899-615c9e4b713e3-615cda906f346.png" alt="" width="50px">Atención al cliente</li>
                     <li><img src="./img/3-615cda90a1544.png" alt="" width="50px">Envíos a todo el país</li>
@@ -42,10 +44,10 @@
 	</header>
     <main>
         <div class="titular">
-            <div class="titular2" ><h1>Productos destacados</h1></div>
+            <div class="titular2" data-aos="fade-right"><h1>Productos destacados</h1></div>
         </div>
         <div class="main">
-            <div class="productosdestacados">
+            <div class="productosdestacados" data-aos="fade-right">
                 <div>
                     <img src="./img/destacado1.jpg" alt="" class="productosdestacadosimg"> 
                     <h3>Anteojos Ray-Ban Wayfarer 4195Mi</h3>
@@ -72,14 +74,14 @@
                 </div>
             </div>
         </div>
-        <section class="sec1">
+        <section class="sec1" data-aos="fade-left">
             <div>
                 <a href="#"><img src="./img/promocion1.png" alt="" height="500px" class="imgpromocion"></a>
                 <a href="#"><img src="./img/promocion2.png" alt="" height="500px" class="imgpromocion"></a>
             </div>
         </section>
         <section>
-            <div class="grid-container">
+            <div class="grid-container" data-aos="zoom-out-up">
                 <div class="grid-item"><img src="./img/logo-monkey.jpg" alt=""></div>
                 <div class="grid-item"><img src="./img/logo-sarcany.png" alt=""></div>
                 <div class="grid-item"><img src="./img/logo360.png" alt=""></div>
@@ -88,7 +90,7 @@
                 <div class="grid-item"><img src="./img/logopaula.png" alt=""></div>
             </div>
         </section>
-        <div class="centrarcont">
+        <div class="centrarcont" data-aos="zoom-out-up">
             <div style="margin-bottom: 150px; text-align: center;">
                 <form action="enviar.php" method="post" enctype="text/plain">
                 <label for="hombre">¡Recibí las mejores ofertas!</label> 
