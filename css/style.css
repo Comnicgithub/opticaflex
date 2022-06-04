@@ -234,7 +234,7 @@ main {
 
 .nosotros {
   padding: 20px; }
-  .nosotros .nosotros p {
+  .nosotros p {
     line-height: 40px; }
 
 .forms {
@@ -301,7 +301,7 @@ input {
   text-align: center;
   width: 200px;
   height: 200px; }
-  .grid-item .grid-item img {
+  .grid-item img {
     width: 80%; }
 
 .ruta {
