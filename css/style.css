@@ -130,10 +130,6 @@ h3 {
   font-size: 14px;
   margin-left: 10px; }
 
-p {
-  font-size: 16px;
-  text-align: justify; }
-
 .comprar {
   background-color: #F4980A;
   color: #fff;
@@ -225,6 +221,8 @@ p {
 .nosotros {
   padding: 20px; }
   .nosotros p {
+    font-size: 16px;
+    text-align: justify;
     line-height: 40px; }
 
 .forms {

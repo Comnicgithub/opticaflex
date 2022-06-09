@@ -37,7 +37,7 @@ h3 {
     margin-left: 10px;
 }
 
-p {
+@mixin p {
     font-size: $fontsizetexto;
     text-align: justify;
 }
@@ -152,6 +152,7 @@ p {
 .nosotros {
     padding: 20px;
     p {
+        @include p;
         line-height: 40px;
     }
 }
