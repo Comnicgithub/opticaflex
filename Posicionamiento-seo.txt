@@ -1,0 +1,20 @@
+Agregue a todos los html las etiquetas meta
+
+<title>Optica flex | La excelencia en vision</title>
+<meta name="description" content="Productos de primera linea directo de importadores, receetados y para el sol." />
+<meta name="keywords"content="Optica, lentes de sol, cordoba, lentes recetados, envio gratis, cuotas sin interes" />
+<meta name="author" content="comnic" />
+<meta name="copyright" content="Optica Flex" />
+<meta name="robots" content="index"/>
+
+Y en cada seccion se detallo en el titulo donde esta el usuario. 
+
+<title>Tienda | Optica flex | La excelencia en vision</title>
+<title>Paula Cahen D Anvers | Optica flex | La excelencia en vision</title>
+<title>Nosotros | Optica flex | La excelencia en vision</title>
+<title>Marcas | Optica flex | La excelencia en vision</title>
+<title>Contacto | Optica flex | La excelencia en vision</title>
+
+Tambien se utilizaron palabras claves generales y luego se le agrego una dependiendo el html visitado.
+
+La marca se cambio por un svg tanto en el header como en el footer.
