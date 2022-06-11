@@ -18,3 +18,5 @@ Y en cada seccion se detallo en el titulo donde esta el usuario.
 Tambien se utilizaron palabras claves generales y luego se le agrego una dependiendo el html visitado.
 
 La marca se cambio por un svg tanto en el header como en el footer.
+
+Se le agrego el alt a todas la imagenes del sitio
