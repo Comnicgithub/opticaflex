@@ -1,18 +1,5 @@
-* {
-    margin: 0;
-    padding: auto;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
-    background-color: rgb(255, 255, 255);
-    margin: 0;
-}
-
 header {
     width: 100%;
-    margin: 0;
 }
 
 .logotop {
@@ -21,21 +8,12 @@ header {
     width: 100%;
 }
 
-// .nav {
-//     padding: 10px;
-//     text-align: center;
-//     align-items: center;
-//     width: 100%;
-// }
 
 .nav2 {
     padding: 10px;
     text-align: center;
     width: 100%;
 }
-// .navbar {
-//     justify-content: space-between !important; 
-// }
 
 ul.navega li {
     display: inline-flex;
@@ -93,35 +71,37 @@ a {
     width: 1200px;
 }
 
-.navbar-light a {
-    color: #000000 !important;
+.navbar {
+    position: fixed;
+    z-index: 1;
 }
 
-.navbar-light a:hover {
-    color: $colorprincipal !important;
+.navbar-light a {
+    color: #000000 !important;
+    margin-right: 30px;
+    &:hover {
+        color: $colorprincipal !important;
+    }
 }
 
 .bg-light {
-    position: fixed;
     z-index: 1;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.801) !important;
-    box-shadow: 2px 0 10px #00000091;
+    box-shadow: 2px 2px 10px #3f3f3f81;
 }
 
 .nav-link {
     text-align: center;
 }
 
-.carousel-control-next {
+.imgtop {
+    width: 100%;
+    object-fit: cover;
+    min-height: 700px;
     z-index: 0;
 }
 
-.carousel-item {
-    min-height: 700px;
-}
-
-.carousel-item img {
-    object-fit: cover;
-    min-height: 700px;
+.carousel-control-next, .carousel-control-prev {
+    z-index: 0;
 }

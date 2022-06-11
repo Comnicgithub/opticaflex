@@ -7,11 +7,11 @@
 body {
   font-family: 'Raleway', sans-serif;
   background-color: white;
-  margin: 0; }
+  margin: 0;
+  overflow-x: hidden; }
 
 header {
-  width: 100%;
-  margin: 0; }
+  width: 100%; }
 
 .logotop {
   padding: 10px;
@@ -67,31 +67,33 @@ a {
 .contenedor2 {
   width: 1200px; }
 
-.navbar-light a {
-  color: #000000 !important; }
+.navbar {
+  position: fixed;
+  z-index: 1; }
 
-.navbar-light a:hover {
-  color: #F4980A !important; }
+.navbar-light a {
+  color: #000000 !important;
+  margin-right: 30px; }
+  .navbar-light a:hover {
+    color: #F4980A !important; }
 
 .bg-light {
-  position: fixed;
   z-index: 1;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.801) !important;
-  box-shadow: 2px 0 10px #00000091; }
+  box-shadow: 2px 2px 10px #3f3f3f81; }
 
 .nav-link {
   text-align: center; }
 
-.carousel-control-next {
+.imgtop {
+  width: 100%;
+  object-fit: cover;
+  min-height: 700px;
   z-index: 0; }
 
-.carousel-item {
-  min-height: 700px; }
-
-.carousel-item img {
-  object-fit: cover;
-  min-height: 700px; }
+.carousel-control-next, .carousel-control-prev {
+  z-index: 0; }
 
 h1 {
   font-size: 30px;
@@ -354,9 +356,42 @@ input {
   text-align: center;
   z-index: 999; }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .imgcontenedor {
-    width: 80%; }
+    width: 100%;
+    display: flex;
+    justify-content: center; }
   .imgpromocion {
     width: 300px;
-    height: 300px; } }
+    height: 300px; }
+  .nav2 {
+    display: none; }
+  form {
+    display: inline-block;
+    text-align: center;
+    width: 100%; } }
+
+@media screen and (max-width: 600px) and (min-width: 481px) {
+  h1 {
+    font-size: 30px;
+    color: #F4980A;
+    padding-bottom: 0;
+    padding-left: 0;
+    text-align: center; }
+  .imgcontenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  .imgpromocion {
+    width: 400px;
+    height: 400px; }
+  .nav2 {
+    display: none; }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify; }
+  form {
+    display: inline-block;
+    text-align: center;
+    width: 100%; } }

@@ -6,25 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/glasses.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Optica flex | La excelencia en vision</title>
     <meta name="description" content="Productos de primera linea directo de importadores, recetados y para el sol." />
     <meta name="keywords"
         content="Optica, lentes de sol, cordoba, lentes recetados, envio gratis, cuotas sin interes" />
     <meta name="author" content="comnic" />
     <meta name="copyright" content="Optica Flex" />
-    <meta name="robots" content="index"/>
+    <meta name="robots" content="index" />
 
 </head>
-
 <body>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
     <!-- INICIO HEADER -->
     <header>
         <div>
@@ -39,7 +32,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="./index.html">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
@@ -66,12 +59,12 @@
                         <li data-target="#demo" data-slide-to="1"></li>
                     </ul>
                     <!-- The slideshow -->
-                    <div class="carousel-inner">
+                    <div class="carousel-inner ">
                         <div class="carousel-item active">
-                            <img src="./img/top-index.jpg" alt="Los Angeles">
+                            <img src="./img/top-index.jpg" alt="" class="imgtop">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/top-index2.jpg" alt="Chicago">
+                            <img src="./img/top-index2.jpg" alt="" class="imgtop">
                         </div>
                     </div>
 
@@ -86,12 +79,12 @@
             </div>
 
             <div class="nav2">
-                <ul class="iconos" data-aos="fade-down">
-                    <li><img src="./img/1-615cda901c28b.png" alt="" width="50px">Pagá con credito y débito </li>
-                    <li><img src="./img/02-6112e14f82899-615c9e4b713e3-615cda906f346.png" alt="" width="50px">Atención
+                <ul class="iconos">
+                    <li><img src="../img/1-615cda901c28b.png" alt="" width="50px">Pagá con credito y débito </li>
+                    <li><img src="../img/02-6112e14f82899-615c9e4b713e3-615cda906f346.png" alt="" width="50px">Atención
                         al cliente</li>
-                    <li><img src="./img/3-615cda90a1544.png" alt="" width="50px">Envíos a todo el país</li>
-                    <li><img src="./img/4-615cda90caa45.png" alt="" width="50px"> ¡Hablanos por Whatsapp!</li>
+                    <li><img src="../img/3-615cda90a1544.png" alt="" width="50px">Envíos a todo el país</li>
+                    <li><img src="../img/4-615cda90caa45.png" alt="" width="50px"> ¡Hablanos por Whatsapp!</li>
                 </ul>
             </div>
         </div>
@@ -100,7 +93,9 @@
     <main>
         <div class="container">
             <div class="row">
-                <h1>Productos destacados</h1>
+                <div class="titular2">
+                    <h1>Productos destacados</h1>
+                </div>
             </div>
         </div>
         <div class="container">
@@ -142,7 +137,7 @@
     </main>
     <section>
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="imgcontenedor"><a href="#"><img src="./img/promocion1.png" alt="" class="imgpromocion"></a>
                 </div>
                 <div class="imgcontenedor"><a href="#"><img src="./img/promocion2.png" alt="" class="imgpromocion"></a>
@@ -151,7 +146,7 @@
         </div>
     </section>
     <section class="container-xl">
-        <div class="row justify-content-center" data-aos="fade-left">
+        <div class="row justify-content-center">
             <div class="col-xl-2 grid-item"><img src="./img/logo-monkey.jpg" alt=""></div>
             <div class="col-xl-2 grid-item"><img src="./img/logo-sarcany.png" alt=""></div>
             <div class="col-xl-2 grid-item"><img src="./img/logo360.png" alt=""></div>
@@ -161,7 +156,7 @@
         </div>
     </section>
     <section class="container">
-        <div class="centrarcont justify-content-center" data-aos="fade-left">
+        <div class="centrarcont justify-content-center">
             <div>
                 <form action="enviar.php" method="post" enctype="text/plain">
                     <label for="hombre">¡Recibí las mejores ofertas!</label>
