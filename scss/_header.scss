@@ -37,6 +37,7 @@ a {
     color: black;
     padding: 2px 1px 0;
     transition: color 0.5s;
+
     &:hover {
         color: $colorprincipal;
         text-decoration: none;
@@ -79,6 +80,7 @@ a {
 .navbar-light a {
     color: #000000 !important;
     margin-right: 30px;
+
     &:hover {
         color: $colorprincipal !important;
     }
@@ -102,6 +104,7 @@ a {
     z-index: 0;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
     z-index: 0;
 }
