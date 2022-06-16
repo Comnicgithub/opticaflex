@@ -85,6 +85,10 @@ a {
         color: $colorprincipal !important;
     }
 }
+.animate__animated {
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+}
 
 .bg-light {
     z-index: 1;

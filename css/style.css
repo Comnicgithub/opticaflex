@@ -78,6 +78,10 @@ a {
   .navbar-light a:hover {
     color: #F4980A !important; }
 
+.animate__animated {
+  -webkit-animation-fill-mode: none;
+  animation-fill-mode: none; }
+
 .bg-light {
   z-index: 1;
   width: 100%;
@@ -151,7 +155,8 @@ h3 {
 .destacados {
   height: 450px;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  z-index: 0; }
 
 .comprar2 {
   background-color: #F4980A;
