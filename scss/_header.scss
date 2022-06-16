@@ -86,8 +86,7 @@ a {
     }
 }
 .animate__animated {
-    -webkit-animation-fill-mode: none;
-    animation-fill-mode: none;
+    animation-fill-mode: none !important;
 }
 
 .bg-light {

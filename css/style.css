@@ -79,8 +79,7 @@ a {
     color: #F4980A !important; }
 
 .animate__animated {
-  -webkit-animation-fill-mode: none;
-  animation-fill-mode: none; }
+  animation-fill-mode: none !important; }
 
 .bg-light {
   z-index: 1;
