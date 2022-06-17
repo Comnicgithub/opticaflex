@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+@import 'animate.css';
 $colorprincipal:#F4980A;
 $colorhover: rgba(255, 255, 255, 0.801);
 $Color-gris: #adadad;
@@ -18,7 +19,6 @@ body {
     overflow-x: hidden;
 
 }
-
 @import "header";
 @import "main";
 @import "footer";

@@ -36,6 +36,10 @@ h2 {
 h3 {
     font-size: 14px;
     margin-left: 10px;
+    &:hover {
+        color: $colorprincipal;
+        transition: all 0.7s;
+    }
 }
 
 @mixin p {
@@ -58,6 +62,7 @@ h3 {
         background-color: $Color-gris;
         color: #ffffff;
         border-radius: 10px;
+        transform: scale(0.9);
         transition: all 0.7s;
     }
 }
@@ -116,6 +121,12 @@ h3 {
     border-radius: 8px;
     margin: 10px;
     text-align: center;
+    transition: all 0.7s;
+    &:hover {
+        transform: scale(0.9);
+        transition: all 0.7s;
+        
+    }
 }
 
 .sec1 {
@@ -146,6 +157,7 @@ h3 {
         border-radius: 50px;
         margin: 30px;
         filter: none;
+        transform: scale(0.9);
         transition: all 0.7s;
         box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.445);
     }
@@ -204,13 +216,15 @@ input {
     background-color: $Color-gris;
     border: 0;
     font-size: $fontsizetexto;
+    border-radius: 5px;
     margin: 5px;
+    padding: 5px;
 }
 
 .suscripcionboton {
     background-color: $colorprincipal;
     border-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px 10px;
     color: #fff;
     transition: all 0.7s;
@@ -221,6 +235,7 @@ input {
         border-radius: 5px;
         padding: 5px 10px;
         color: #fff;
+        transform: scale(0.9);
         transition: all 0.7s;
     }
 }

@@ -15,6 +15,8 @@ header {
     width: 100%;
 }
 
+
+
 ul.navega li {
     display: inline-flex;
     padding-right: 50px;
@@ -44,6 +46,10 @@ a {
     }
 }
 
+.active {
+    font-weight: bolder;
+    
+}
 
 .top {
     width: 100%;
@@ -80,9 +86,12 @@ a {
 .navbar-light a {
     color: #000000 !important;
     margin-right: 30px;
+    transition: all 0.5s;
 
     &:hover {
         color: $colorprincipal !important;
+        transform: scale(1.1);
+        transition: all 0.5s;
     }
 }
 
