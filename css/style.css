@@ -73,7 +73,9 @@ a {
 
 .navbar {
   position: fixed;
-  z-index: 1; }
+  z-index: 1;
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .navbar-light a {
   color: #000000 !important;
